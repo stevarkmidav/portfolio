@@ -1,2 +1,2 @@
-Instal in terminal - "npm install"
-For run in terminal - "npm run gulp" or "gulp"
+1. Instal in terminal - "npm install"
+2. For run in terminal - "npm run gulp" or "gulp"
