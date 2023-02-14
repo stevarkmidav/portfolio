@@ -30,16 +30,20 @@
         width: 135px;
         border-radius: 5px;
         text-decoration: none;
+        &:hover {
+            color:#000;
+            text-decoration: none;
+        }
         &_unvsbl {
             display: flex;
             height: 45px;
             width: 135px;
             justify-content: center;
             align-items: center;
-        }
-        &:hover {
-            color:#000;
-            text-decoration: none;
+            transition: all .3s;
+            &:hover {
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
         }
     }
 }

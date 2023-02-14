@@ -11,10 +11,10 @@
     &__link {
         &:hover {
             svg {
-                width: 102%;
-                height: 102%;
-                /* transform: scale(1.2); */
-                transition: all 0.05s;
+                // width: 102%;
+                // height: 102%;
+                transform: scale(1.2); 
+                transition: all 0.3s;
             }
         }
     }

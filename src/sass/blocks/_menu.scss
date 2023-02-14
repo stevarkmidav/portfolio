@@ -57,8 +57,9 @@
         align-items: center;
         &:hover {
                 svg {
-                    transform: scale(1.15);
-                    transition: all 0.05s;
+                    transform: scale(1.2);
+                    transition: all 0.3s;
+
                 }
             }
     }
@@ -92,6 +93,7 @@
         a {
             color: #FFFFFF;  
             text-decoration: none;
+
         }  
     }
     &__social {
@@ -110,7 +112,7 @@
             &:hover {
                 svg {
                     transform: scale(1.2);
-                    transition: all 0.05s;
+                    transition: all 0.3s;
                 }
             }
         }

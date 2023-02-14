@@ -35,8 +35,8 @@
             max-width: 30px;
             max-height: 30px;
             &:hover {
-                transform: scale(1.15);
-                transition: all 0.05s;
+                transform: scale(1.2);
+                transition: all 0.3s;
             }
         }
     }
@@ -98,10 +98,6 @@
         font-weight: 700;
         font-size: 14px;
         line-height: 21px;
-        &:hover {
-            border: solid;
-            border-color: rgba(0, 0, 0, 0.8);
-            transition: all 0.07s;
-        }
     }
-}   
+}
+  
