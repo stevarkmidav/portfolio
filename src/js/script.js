@@ -1,6 +1,6 @@
 const hamburger = document.querySelector('.hamburger'),
       menu = document.querySelector('.menu'),
-      closeElem = document.querySelector('.menu__close');
+      closeElem = document.querySelector('.menu__close'),
       overlayElem = document.querySelector('.menu__overlay');
 
 hamburger.addEventListener('click', () => {
@@ -21,3 +21,25 @@ const counters = document.querySelectorAll('.skills__ratings-counter'),
 counters.forEach( (item, i) => {
     lines[i].style.width = item.innerHTML;
 });
+
+
+const form = document.querySelector(".contacts__form");
+
+form.addEventListener('submit', function(event) {
+    event.preventDefault(); 
+    const formData = new FormData(form);
+    const xhr = new XMLHttpRequest(); 
+    xhr.open('POST', 'mailer/smart.php'); 
+    xhr.send(formData); 
+
+    form.reset();
+
+    const modal = document.querySelector('.contacts__modal');
+    modal.style.display = 'block';
+    
+    setTimeout(function () {
+        modal.style.display = 'none';
+    }, 4000);
+    
+});
+
