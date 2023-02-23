@@ -23,23 +23,23 @@ counters.forEach( (item, i) => {
 });
 
 
-const form = document.querySelector(".contacts__form");
+// const form = document.querySelector(".contacts__form");
 
-form.addEventListener('submit', function(event) {
-    event.preventDefault(); 
-    const formData = new FormData(form);
-    const xhr = new XMLHttpRequest(); 
-    xhr.open('POST', 'mailer/smart.php'); 
-    xhr.send(formData); 
+// form.addEventListener('submit', function(event) {
+//     event.preventDefault(); 
+//     const formData = new FormData(form);
+//     const xhr = new XMLHttpRequest(); 
+//     xhr.open('POST', 'mailer/smart.php'); 
+//     xhr.send(formData); 
 
-    form.reset();
+//     form.reset();
 
-    const modal = document.querySelector('.contacts__modal');
-    modal.style.display = 'block';
+//     const modal = document.querySelector('.contacts__modal');
+//     modal.style.display = 'block';
     
-    setTimeout(function () {
-        modal.style.display = 'none';
-    }, 4000);
+//     setTimeout(function () {
+//         modal.style.display = 'none';
+//     }, 4000);
     
-});
+// });
 
