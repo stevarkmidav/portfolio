@@ -99,6 +99,22 @@
         font-size: 14px;
         line-height: 21px;
     }
+    &__phone {
+        color: black;
+        &:hover {
+            color:rgb(79, 79, 79);
+            text-decoration: none;
+            transition: 0.3s all;
+        }
+    }
+    &__mail {
+        color: black;
+        &:hover {
+            color:rgb(79, 79, 79);
+            text-decoration: none;
+            transition: 0.3s all;
+        }
+    }
     // &__modal {
     // display: none;
     // position: fixed;
